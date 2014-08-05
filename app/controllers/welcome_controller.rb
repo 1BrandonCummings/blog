@@ -5,7 +5,6 @@ class WelcomeController < ApplicationController
   def about_me
   end
 
-  def site_map
-  end
+ 
   
 end
