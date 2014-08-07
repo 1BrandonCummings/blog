@@ -1,0 +1,25 @@
+<% image_urls = ["http://www.epicgeekdom.com/wordpress/wp-content/uploads/2013/11/epic-shit-300x300.jpg", "http://weknowmemes.com/generator/uploads/generated/g133676592563955666.jpg", "http://global3.memecdn.com/i-dont-always-fly-but-when-i-do-i-scare-the-shit-out-of-everyone_o_2025719.jpg"] %>
+
+<% image_urls.each do |pic| %> <!-- looping through arrays of URLs -->
+
+<a href="<%= pic %>">  <!-- accessing variable pics -->
+<img src="<%= pic %>">
+</a>
+
+<% end %> <!-- making sure we end our loop-->
+
+
+
+<p><a href="/sitemap">Back to Sitemap</a></p>
+
+
+
+<% hidden = "This variable assignment is hidden" %>
+
+<%= hidden %>
+
+<br>
+
+<%= 
+" '<%='' means shove it into the page"
+%>
