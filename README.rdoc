@@ -59,18 +59,37 @@ Header:
 Welcome Page:
 
 -3 sections inbetween Header and Footer
+
 	1st Section: Parallaxed Image with welcome to my blog wording
 
 	2nd Section: Showing most recent 3 blog posts beginnings
 
-	3rd Section: Parallaxed Image of 
+	3rd Section: Parallaxed Image of an awesome video with sign up for blog section.
 
 Blogs Page:
 
+-Standard blogs showing in each section with new blog and right side column
+	
+	Each Blog Section: Has teaser of blog with infinite scroll when scrolling down for each blog
+
+	Right Side Column: Has search bar at the top, categories available in middle section, signup bar at the bottom 
+
 About Me Page:
+
+-  3 sections
+
+	1st Section: Picture of me on the left side with a short description about where I am from and what I have done.
+
+	2nd Section: All about Voxa and what we do
+
+	3rd Section: What I would like to do in the next 5 years
 
 Projects Page:
 
+- Links to notable projects within little lifetiles
+
 Contact Me:
+
+-Have a Google map location of the Atlanta Tech Village, my email, phone number, twitter, linkedin
 
 Footer:
