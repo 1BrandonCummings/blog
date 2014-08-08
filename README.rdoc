@@ -93,3 +93,11 @@ Contact Me:
 -Have a Google map location of the Atlanta Tech Village, my email, phone number, twitter, linkedin
 
 Footer:
+
+- Should have links in column format for github, twitter, linkedin, sitemap, aboutme, blogs page, projects page, contact me page, and Welcome page (if not on welcome page), and a back to top button with smooth scrolling.
+
+
+
+
+
+
