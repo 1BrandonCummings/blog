@@ -9,7 +9,6 @@
 <% end %> <!-- making sure we end our loop-->
 
 
-
 <p><a href="/sitemap">Back to Sitemap</a></p>
 
 
@@ -23,3 +22,13 @@
 <%= 
 " '<%='' means shove it into the page"
 %>
+
+<% 1.upto(100).each do |pics| %>
+
+<img src="http://www.epicgeekdom.com/wordpress/wp-content/uploads/2013/11/epic-shit-300x300.jpg" style="width: <%= pics %>px;"/>
+
+<% end %>
+
+
+
+
