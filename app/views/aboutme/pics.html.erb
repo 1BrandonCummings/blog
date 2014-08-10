@@ -1,14 +1,23 @@
 <% image_urls = {
-	"Do Epic Shit" => "http://www.epicgeekdom.com/wordpress/wp-content/uploads/2013/11/epic-shit-300x300.jpg",
-	 "Waterfall" => "http://weknowmemes.com/generator/uploads/generated/g133676592563955666.jpg", 
-	 "Mosquito" => "http://global3.memecdn.com/i-dont-always-fly-but-when-i-do-i-scare-the-shit-out-of-everyone_o_2025719.jpg"
+
+	"This is my girlfriend and I dancing at our friend's wedding." => "https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/t1.0-9/10501925_10204094038372906_7906600222731575678_n.jpg",
+
+	"I am standing next a Redwood tree located in Eastpoint, Florida. I brought this Redwood tree back from California when it was 3 Years old and no bigger than my hand, it is now 5 years old and much, much bigger." => "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/994479_10152400559802909_2575728444226409070_n.jpg?oh=770cb962bf03a14a5a42b8d74ae72619&oe=5478D407&__gda__=1416180415_c05a540c36d41fe4de1f2f0be83de743",  
+	 
+	 "I gave my Dad a GoPro for his birthday and I was testing it out in the water for him." => "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10479960_10152399596452909_2856539086199260134_n.jpg?oh=15f7949095e7076a25c53da001964544&oe=545C4DE8&__gda__=1417788158_e570bc9b214a39b18b1eb824e3c5a2c5"
 	 } %>
 
-<% image_urls.each do |name, pic| %> <!-- looping through arrays of URLs -->
+	 <p><b>This is my very simple Pics-about-me page.</b></p>
+	 <br>
+
+<% image_urls.each do |description, pic| %> <!-- looping through arrays of URLs -->
 
 <a href="<%= pic %>">  <!-- accessing variable pics -->
 <img src="<%= pic %>">
+<br>
 </a>
+<p><%=description %></p>
+<br>
 
 <% end %> <!-- making sure we end our loop-->
 
@@ -17,21 +26,12 @@
 
 
 
-<% hidden = "This variable assignment is hidden" %>
 
-<%= hidden %>
-
-<br>
-
-<%= 
-" '<%='' means shove it into the page"
-%>
-
-<% 1.upto(100).each do |pics| %>
+<!-- <% 1.upto(100).each do |pics| %>
 
 <img src="http://www.epicgeekdom.com/wordpress/wp-content/uploads/2013/11/epic-shit-300x300.jpg" style="width: <%= pics %>px;"/>
 
-<% end %>
+<% end %> -->
 
 
 
