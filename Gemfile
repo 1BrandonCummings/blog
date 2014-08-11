@@ -14,7 +14,8 @@ group :production do
 	gem 'rails_12factor'
 end
 
-gem "twitter-bootstrap-rails"
+
+gem 'bootstrap-sass-rails', '~> 3.1.0.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
