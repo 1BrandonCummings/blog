@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
   	#store date and time in session
   	#pull date and time _from_ the session and make available to the view
 
-		current_dt = Time.now.strftime("%B %d, %Y, %A %H %M %S")
+		current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
 
 		
 		if session["first_visit"] == nil
