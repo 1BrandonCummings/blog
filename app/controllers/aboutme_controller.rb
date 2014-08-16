@@ -15,9 +15,9 @@ class AboutmeController < ApplicationController
 		description2 ="I am standing next a Redwood tree located in Eastpoint, Florida. I brought this Redwood tree back from California when it was 3 Years old and no bigger than my hand, it is now 5 years old and much, much bigger."
 		description3 ="I gave my Dad a GoPro for his birthday and I was testing it out in the water for him."
 		
-		image1 = "assets/dancing.jpg"
-		image2 = "assets/redwood.jpg"
-		image3 = "assets/swimming.jpg"
+		image1 = "assets/images/dancing.jpg"
+		image2 = "assets/images/redwood.jpg"
+		image3 = "assets/images/swimming.jpg"
 
 
 		 @image_urls = {
