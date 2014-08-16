@@ -16,3 +16,31 @@
  */
  
 @import "bootstrap";
+
+
+
+.container {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+img.huge {
+	
+	border: 2px solid black;
+	height: 300px;
+	width: 1000px;
+}
+
+
+
+h1 {
+	color: red;
+	font-size: 100px;
+	margin: 100px;
+}

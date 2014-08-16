@@ -4,7 +4,8 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-
+  
+  
   get 'contactme' => 'contactme#contactme'
   get 'projects' => 'projects#projects'
   get 'blogs'   => 'blogs#blogs'

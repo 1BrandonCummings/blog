@@ -4,8 +4,8 @@ class WelcomeController < ApplicationController
   	#store date and time in session
   	#pull date and time _from_ the session and make available to the view
 
-		current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
-
+	current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
+ session = {}
 		
 		if session["first_visit"] == nil
 			session["first_visit"] = current_dt
@@ -15,6 +15,13 @@ class WelcomeController < ApplicationController
   end
 
   def about_me
+  current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
+ session = {}
+		
+		if session["first_visit"] == nil
+			session["first_visit"] = current_dt
+		end
+		@first_visit = session["first_visit"]
   end
 
  
