@@ -5,8 +5,8 @@
 
 <% @image_urls.each do |description, pic| %> <!-- looping through arrays of URLs -->
 
-<a href="<%= asset_path(pic) %>">  <!-- accessing variable pics -->
-<img src="<%= asset_path(pic) %>">
+<a href="<%= pic %>">  <!-- accessing variable pics -->
+<img src="<%= pic %>">
 <br>
 </a>
 <p><%= description %></p>
