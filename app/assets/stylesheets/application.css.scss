@@ -19,16 +19,51 @@
 @import "bootstrap";
 
 
+/* Background */
+
+#home { 
+  background: url(swimming.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}
+ 
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+ 
+#about { 
+  background: url(dancing.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#about article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}
+
+
 /* Navbar */
 
 .dropdown:hover .dropdown-menu {
     display: block; 
     
 }
-
-
-
-
 
 
 /* Body */
@@ -61,4 +96,10 @@ h1 {
 	color: red;
 	font-size: 100px;
 	margin: 100px;
+}
+
+div.white-text {
+	color: #f8f8ff;
+	font-size: 20px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
