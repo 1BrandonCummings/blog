@@ -22,8 +22,9 @@ class AboutmeController < ApplicationController
 	 
 	 		description3 => image3 
 	 } 
+	 @first_visit
 	end
 
-	@first_visit
+	
 	
 end

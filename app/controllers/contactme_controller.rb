@@ -3,3 +3,5 @@ class ContactmeController < ApplicationController
   	@first_visit
   
 end
+
+end
