@@ -1,24 +1,27 @@
 
-
+<div class="container">
 	 <p><b>This is my very simple Pics-about-me page.</b></p>
 	 <br>
 
 <% @image_urls.each do |description, pic| %> <!-- looping through arrays of URLs -->
+<div class="row">
+	<div class="col-md-12">
+		<a href="<%= pic %>">  <!-- accessing variable pics -->
+		<img src="<%= pic %>">
+		<br>
+		</a>
+		<p><%= description %></p>
+		<br>
 
-<a href="<%= pic %>">  <!-- accessing variable pics -->
-<img src="<%= pic %>">
-<br>
-</a>
-<p><%= description %></p>
-<br>
-
-<% end %> <!-- making sure we end our loop-->
-
-
+		<% end %> <!-- making sure we end our loop-->
+</div>
+</div>
 <p><%=link_to("Back to Sitemap", "/sitemap")%></p>
 
 
 </div>
+
+
 
 <!-- <% 1.upto(100).each do |pics| %>
 
