@@ -30,12 +30,15 @@
   position: relative; 
 }
  
-#home article { 
+div.section-parrallax { 
   height: 458px; 
   position: absolute; 
   text-align: center; 
   top: 150px; 
-  width: 100%; 
+  width: 100%;
+  font-size: 100px;
+  color: white;
+  background-color: black; 
 }
  
 #about { 
@@ -49,13 +52,7 @@
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
  
-#about article { 
-  height: 458px; 
-  position: absolute; 
-  text-align: center; 
-  top: 150px; 
-  width: 100%; 
-}
+
 
 
 /* Navbar */
@@ -73,13 +70,11 @@
    background-size: auto;
 }
 
-.container {
-	margin-top: 100px;
-    margin-bottom: 100px;
-	margin-left: auto;
+.container-fluid {
 	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
+margin-left: auto;
+padding-left: 0px;
+padding-right: 0px;
 }
 
 
