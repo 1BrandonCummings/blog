@@ -1,12 +1,6 @@
 class AboutmeController < ApplicationController
 	def aboutme
-		current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
- session = {}
-		
-		if session["first_visit"] == nil
-			session["first_visit"] = current_dt
-		end
-		@first_visit = session["first_visit"]
+		@first_visit
 	end
 
 	def pics
@@ -30,12 +24,6 @@ class AboutmeController < ApplicationController
 	 } 
 	end
 
-	current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
- session = {}
-		
-		if session["first_visit"] == nil
-			session["first_visit"] = current_dt
-		end
-		@first_visit = session["first_visit"]
+	@first_visit
 	
 end

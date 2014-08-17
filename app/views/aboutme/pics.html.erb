@@ -6,14 +6,16 @@
 <% @image_urls.each do |description, pic| %> <!-- looping through arrays of URLs -->
 <div class="row">
 	<div class="col-md-12">
+		
 		<a href="<%= pic %>">  <!-- accessing variable pics -->
-		<img src="<%= pic %>">
-		<br>
+		<img class="huge" src="<%= pic %>">
+		
 		</a>
 		<p><%= description %></p>
-		<br>
+		
 
 		<% end %> <!-- making sure we end our loop-->
+
 </div>
 </div>
 <p><%=link_to("Back to Sitemap", "/sitemap")%></p>
