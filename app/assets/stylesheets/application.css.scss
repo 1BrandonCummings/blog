@@ -21,15 +21,62 @@
 
 /* Background */
 
-#home { 
-  background: url(swimming.jpg) 50% 0 repeat fixed; min-height: 1000px; 
+#swimming-background { 
+  background: url(swimming.jpg) 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8); 
+}
+ 
+ 
+#dancing-background { 
+  background: url(dancing.jpg) 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8); 
+}
+
+#redwood-background { 
+  background: url(redwood.jpg) 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#wood-background { 
+  background: url(http://cdn.osxdaily.com/wp-content/uploads/2011/05/barn-door-wallpaper.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
- 
+
+#white-background { 
+  background: url() 50% 0 no-repeat fixed; min-height: 500px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
 div.section-parrallax { 
   height: 458px; 
   position: absolute; 
@@ -38,18 +85,7 @@ div.section-parrallax {
   width: 100%;
   font-size: 100px;
   color: white;
-  background-color: black; 
-}
- 
-#about { 
-  background: url(dancing.jpg) 50% 0 repeat fixed; min-height: 1000px; 
-  height: 1000px; 
-  margin: 0 auto; 
-  width: 100%; 
-  max-width: 1920px; 
-  position: relative; 
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   
 }
  
 
@@ -71,10 +107,13 @@ div.section-parrallax {
 }
 
 .container-fluid {
+	
+
+
 	margin-right: auto;
-margin-left: auto;
-padding-left: 0px;
-padding-right: 0px;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
