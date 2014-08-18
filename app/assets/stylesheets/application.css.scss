@@ -25,7 +25,7 @@
   background: url(swimming.jpg) 50% 0 repeat fixed; max-height: 500px; 
   height: 1000px; 
   margin: 0 auto; 
-  width: 100%; 
+  width: auto; 
   max-width: 1920px; 
   position: relative;
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -36,7 +36,7 @@
 #dancing-background { 
   background: url(dancing.jpg) 50% 0 repeat fixed; max-height: 500px; 
   height: 1000px; 
-  margin: 0 auto; 
+  margin: 0px; 
   width: 100%; 
   max-width: 1920px; 
   position: relative;
@@ -47,7 +47,7 @@
 #redwood-background { 
   background: url(redwood.jpg) 50% 0 repeat fixed; max-height: 500px; 
   height: 1000px; 
-  margin: auto; 
+  margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
@@ -84,7 +84,7 @@ div.section-parrallax {
   top: 150px; 
   width: 100%;
   font-size: 100px;
-  color: white;
+  
    
 }
  
@@ -107,9 +107,8 @@ div.section-parrallax {
 }
 
 .container-fluid {
-	
-
-
+	margin-bottom: 50px;
+	margin-top: auto;
 	margin-right: auto;
 	margin-left: auto;
 	padding-left: 0px;
