@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
   
 
 before_action :add_cookie
+
+
+
+
 def add_cookie
   
   	current_dt = Time.now.strftime("%B %d, %Y, %A %H:%M:%S")
