@@ -1,6 +1,6 @@
 class AboutmeController < ApplicationController
 	def aboutme
-		@first_visit
+		
 	end
 
 	def pics
@@ -22,7 +22,7 @@ class AboutmeController < ApplicationController
 	 
 	 		description3 => image3 
 	 } 
-	 @first_visit
+	 
 	end
 
 	
