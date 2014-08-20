@@ -22,7 +22,7 @@
 /* Background */
 
 #swimming-background { 
-  background: url(image-path("swimming.jpg")) 50% 0 repeat fixed; max-height: 500px; 
+  background: url(image-path("swimming")) 50% 0 repeat fixed; max-height: 500px; 
   height: 1000px; 
   margin: 0 auto; 
   width: auto; 
@@ -34,7 +34,7 @@
  
  
 #dancing-background { 
-  background: url(image-path(dancing.jpg)) 50% 0 repeat fixed; max-height: 500px; 
+  background: url(image-path(dancing)) 50% 0 repeat fixed; max-height: 500px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
@@ -45,7 +45,7 @@
 }
 
 #redwood-background { 
-  background: url(image-path(redwood.jpg)) 50% 0 repeat fixed; max-height: 500px; 
+  background: url(image-path(redwood)) 50% 0 repeat fixed; max-height: 500px; 
   height: 1000px; 
   margin: 0 auto; 
   width: 100%; 
