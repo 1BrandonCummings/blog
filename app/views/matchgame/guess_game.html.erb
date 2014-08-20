@@ -1,31 +1,12 @@
-<p><br><br><br><br><br><%=@user_name%>'s Score: <%=session['win_counter']%></p>
-	<form action = "choose_image" 
-      method = "POST"
-      class = "pics_frame">
-      <%x=1%>
-	<% @guess_images.each do |key,value| %>
-	<button class ='frame'
- 		type='submit'
- 		name='submit'
- 		src=''
- 		value='<%=key%>'><%=x%></button>
- 	<input type="hidden" name="answer" value="<%=@special_guess%>">
- 	<%x+=1%>
-	<%end%>
-<input name="authenticity_token" type="hidden" value="<%=form_authenticity_token%>"/>
-	</form>
+<div id='main'>
+
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<div class='prompt'>
-<h1><%=@guess_message%></h1>
-<br>
-<br>
-<div class='pic'>
-  <img src = '<%=@guess_images[@special_guess]%>'/>
+<%= 
+if !session['guess_counter']
+  render :partial => 'pic_frame' 
+else render :partial => 'chooser_frame'
+end
+%>
 </div>
