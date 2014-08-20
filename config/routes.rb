@@ -13,9 +13,13 @@ Rails.application.routes.draw do
   get 'aboutme' => 'aboutme'
   get 'welcome' => 'welcome#index'
   get 'pics' => 'aboutme#pics'
-  get 'game' => 'welcome#matchgame'
 
-  post 'matchgame' => 'welcome#picture_click'
+  #get 'gamestart' => 'matchgame#start'
+
+  post "choose_image" => "matchgame#choose_image"
+  get 'guess_game' => 'matchgame#guess_game'
+  
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

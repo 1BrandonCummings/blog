@@ -5,9 +5,13 @@ class ApplicationController < ActionController::Base
   
 
 before_action :add_cookie
+before_action :set_user_name
 
+def set_user_name
 
+   @user_name = session['user_name']
 
+end
 
 def add_cookie
   
