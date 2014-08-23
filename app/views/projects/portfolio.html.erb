@@ -1,0 +1,21 @@
+<br><br><br><br><br><br><br><br><br><br>WELCOME TO PORTFOLIO
+
+
+<% @projects.each do |project| %>
+
+	<div class="container">
+	<div class="col-md-4">
+
+
+	Project #<%= project.id %><br>
+	Name: <%= project.name %><br>
+	Description: <%= project.description %><br>
+	Github: <%= project.github_link %><br>
+	Heroku: <%= project.heroku_link %><br>
+	Picture: <%= project.picture %><br>
+	Created at: <%= project.created_at %><br>
+	Updated at: <%= project.updated_at %><br> 
+	</p>
+	</div>
+	</div>
+	<% end %>

@@ -3,16 +3,16 @@
 	 <p><b>This is my very simple Pics-about-me page.</b></p>
 	 <br>
 
-<% @image_urls.each do |description, pic| %> <!-- looping through arrays of URLs -->
+<% @image_urls.each do |pic| %> <!-- looping through arrays of URLs -->
 <div class="row">
 	<div class="col-md-12">
 		
-		<a href="<%= pic %>">  <!-- accessing variable pics -->
-		<img class="huge" src="<%= pic %>">
+		<a href="<%= pic.name %>">  <!-- accessing variable pics -->
+		<img class="huge" src="<%= pic.location %>">
 		
 		</a>
 		<p>
-		<div class="white-text"><%= description %></div>
+		
 		</p>
 		
 
@@ -28,11 +28,7 @@
 
 
 
-<!-- <% 1.upto(100).each do |pics| %>
 
-<img src="http://www.epicgeekdom.com/wordpress/wp-content/uploads/2013/11/epic-shit-300x300.jpg" style="width: <%= pics %>px;"/>
-
-<% end %> -->
 
 
 
