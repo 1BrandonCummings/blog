@@ -4,7 +4,7 @@ class ProjectsController < ApplicationController
   end
 
   def portfolio
-@projects = Project.all
+	@projects = Project.all
   	
 
   end

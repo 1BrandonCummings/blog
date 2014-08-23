@@ -3,12 +3,12 @@
 	 <p><b>This is my very simple Pics-about-me page.</b></p>
 	 <br>
 
-<% @image_urls.each do |pic| %> <!-- looping through arrays of URLs -->
+<% @pictures.each do |pic| %> <!-- looping through arrays of URLs -->
 <div class="row">
 	<div class="col-md-12">
 		
 		<a href="<%= pic.name %>">  <!-- accessing variable pics -->
-		<img class="huge" src="<%= pic.location %>">
+		<img class="huge" src="<%= pic.name %>">
 		
 		</a>
 		<p>
