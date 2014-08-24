@@ -1,3 +1,98 @@
 // Place all the styles related to the aboutme controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+/* Background */
+
+#swimming-background { 
+  background: url(image-path("swimming.jpg")) 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: auto; 
+  max-width: 1920px; 
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8); 
+}
+ 
+ 
+#dancing-background { 
+  background: url(image-path("dancing.jpg")) 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#redwood-background { 
+  background: url(image-path("redwood.jpg")) 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#white-background { 
+  background: url() 50% 0 no-repeat fixed; min-height: 500px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  
+}
+
+div.section-parrallax { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%;
+  font-size: 100px;
+  
+   
+}
+
+#birds-background { 
+  background: url(image-path("http://www.hdwallpapersos.com/wp-content/uploads/2014/07/hillside-river-375-2560x1600.jpg")) 50% 0 no-repeat fixed; max-height: 100%; 
+  height: 100%; 
+  margin: 0px; 
+  width: 100%; 
+  max-width: 100%; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#video-background { 
+  background: video-url("http://www.youtube.com/embed/V06n15kQzo0?autoplay=1") 50% 0 repeat fixed; max-height: 500px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#wood-background { 
+  background: url(http://cdn.osxdaily.com/wp-content/uploads/2011/05/barn-door-wallpaper.jpg) 50% 0 no-repeat fixed; min-height: 1000px; 
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+.background-wood-image { /* In Your CSS File */
+   background-image: url('http://cdn.osxdaily.com/wp-content/uploads/2011/05/barn-door-wallpaper.jpg');
+   background-size: auto;
+}
