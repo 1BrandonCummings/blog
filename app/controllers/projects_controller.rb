@@ -4,8 +4,17 @@ class ProjectsController < ApplicationController
   end
 
   def portfolio
-	@projects = Project.all
-  	
+
+  	@user_choice = params["category"]
+
+    if params["category"] == "All"
+    	@projects = Project.where.not(category: nil).all
+    	
+    	else @projects = Project.where(category: @user_choice ).all
+  		
+    end
+
+	
 
   end
 

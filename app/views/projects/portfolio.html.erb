@@ -1,20 +1,26 @@
 <br><br><br><br><br><br><br><br><br><br>WELCOME TO PORTFOLIO
+ 
 
+<div class="container">
+<form action="portfolio">
 
+ <input type="submit" name="category" value="Rails"/>
+ <input type="submit" name="category" value="Ruby"/>
+ <input type="submit" name="category" value="All"/>
+</form>
 <% @projects.each do |project| %>
 
 	<div class="container">
 	<div class="col-md-4">
 
-
+<p>
 	Project #<%= project.id %><br>
 	Name: <%= project.name %><br>
 	Description: <%= project.description %><br>
-	Github: <%= project.github_link %><br>
-	Heroku: <%= project.heroku_link %><br>
-	Picture: <%= project.picture %><br>
-	Created at: <%= project.created_at %><br>
-	Updated at: <%= project.updated_at %><br> 
+	Category: <%= project.category %><br>
+	
+		
+	
 	</p>
 	</div>
 	</div>
