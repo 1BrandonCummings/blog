@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'portfolio' => 'projects#portfolio'
   get 'test'     => 'welcome#about_me'
   get 'contactme' => 'contactme#contactme'
-  get 'projects' => 'projects#projects'
+  # get 'projects' => 'projects#portfolio'
   get 'blogs'   => 'blogs#blogs'
   get 'sitemap' => 'sitemap#index'
   get 'aboutme' => 'aboutme'

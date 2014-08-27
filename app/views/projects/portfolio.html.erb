@@ -1,27 +1,31 @@
-<br><br><br><br><br><br><br><br><br><br>WELCOME TO PORTFOLIO
+
  
 
-<div class="container">
+<div class="center">
+
+
+
 <form action="portfolio">
 
- <input type="submit" name="category" value="Rails"/>
- <input type="submit" name="category" value="Ruby"/>
- <input type="submit" name="category" value="All"/>
+ <input type="submit" class="btn btn-default" id="red" name="category" value="Rails"/>
+ <input type="submit" class="btn btn-default" id="blue" name="category" value="Ruby"/>
+ <input type="submit" class="btn btn-default" id="green" name="category" value="All"/>
+
 </form>
+</div>
+<div class="container">
 <% @projects.each do |project| %>
-
-	<div class="container">
-	<div class="col-md-4">
-
-<p>
-	Project #<%= project.id %><br>
-	Name: <%= project.name %><br>
+	
+	<row class="col-xs-4">
+	<section class="description">
+	<b><i>Project</i></b> #<%= project.name %><br>
+	</section>
+	ID: <%= project.id %><br>
 	Description: <%= project.description %><br>
 	Category: <%= project.category %><br>
-	
+	</row>
+
 		
 	
-	</p>
-	</div>
-	</div>
-	<% end %>
+<% end %>
+</div>
