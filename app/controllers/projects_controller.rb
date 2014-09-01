@@ -18,7 +18,8 @@ class ProjectsController < ApplicationController
     if params["category"] == "All"
     	@projects = Project.where.not(category: nil).all
     	
-    	else @projects = Project.where(category: @user_choice ).all
+    	else
+       @projects = Project.where(category: @user_choice ).all
   		
     end
 
