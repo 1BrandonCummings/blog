@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index	
+  	flash[:notice] = "Success"
   end
 
   def about_me

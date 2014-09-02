@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
   	@projects = Project.all
   end
 
-  def portfolio
+  def portfolio 
 
   	@user_choice = params["category"]
 
@@ -20,7 +20,7 @@ class ProjectsController < ApplicationController
     	
     	else
        @projects = Project.where(category: @user_choice ).all
-  		
+  		 
     end
 
 	

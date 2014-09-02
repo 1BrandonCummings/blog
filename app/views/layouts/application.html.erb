@@ -7,10 +7,28 @@
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 
-  
+ </head> 
 <body>
 
+
+
+<% if flash[:notice] %>
+<div class="alert alert-success" role="alert"><%= flash[:notice] %></div>
+<%end%>
+
+
 <%= render 'layouts/header' %>
+
+<br>
+<br>
+<br>
+<br>
+<%flash.each do |name, msg|%>
+
+<%= content_tag :div, msg, class: name %>
+
+<%end%>
+
 <div class="container-fluid">
 
 <%= yield %>
